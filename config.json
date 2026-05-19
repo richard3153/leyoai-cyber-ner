@@ -1,0 +1,8 @@
+{
+  "model_type": "bert",
+  "architectures": ["BERTForNER"],
+  "hidden_size": 768,
+  "num_labels": 9,
+  "id2label": {"0":"O","1":"B-device","2":"I-device","3":"B-attack_type","4":"I-attack_type","5":"B-vulnerability","6":"I-vulnerability","7":"B-location","8":"I-location"},
+  "label2id": {"O":0,"B-device":1,"I-device":2,"B-attack_type":3,"I-attack_type":4,"B-vulnerability":5,"I-vulnerability":6,"B-location":7,"I-location":8}
+}
